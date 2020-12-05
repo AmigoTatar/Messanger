@@ -1,0 +1,13 @@
+.content{
+    grid-area:cont ;
+  background-color: chocolate;
+  }
+  .catsy img {
+    width: 600px;
+  }
+  .vav_disc img{
+    width: 160px;
+  }
+  .vav_disc {
+    margin: 10px;
+  }

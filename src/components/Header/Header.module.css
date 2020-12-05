@@ -1,0 +1,9 @@
+
+.header{
+    grid-area:hed ;
+    background-color: burlywood;
+  }
+  .header img{
+    width: 70px;
+  }
+  

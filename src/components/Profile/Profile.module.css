@@ -1,13 +1,23 @@
 .content{
-    grid-area:cont ;
-  background-color: chocolate;
-  }
-  .catsy img {
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+.catsy img {
     width: 600px;
   }
-  .vav_disc img{
-    width: 160px;
-  }
-  .vav_disc {
-    margin: 10px;
-  }
+.avatar img{
+  padding: 15px;
+  width:95px;
+}
+.descriptionUsers{
+  margin-top: 30px;
+  padding: 15px;
+  font-family:Arial Rounded MT Bold;
+  text-transform: uppercase;
+}
+.avatarDiscription{
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}

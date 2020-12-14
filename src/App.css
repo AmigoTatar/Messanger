@@ -9,5 +9,9 @@ grid-template-areas:
 grid-template-rows: 60px 1fr;
 grid-template-columns: 180px 1fr;
 }
-
-
+.app_wrapper_content{
+    grid-area:cont ;
+    background-color: #3FB0DF;
+    color: black;
+    height: 100%;
+  }

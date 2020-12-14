@@ -1,0 +1,26 @@
+.dialogWrapper {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogItems {
+    padding: 15px;
+}
+
+.dialogItems .active {
+    color: aquamarine;
+}
+
+.userDialogs {
+
+}
+
+.dialogMessages {
+    padding: 15px;
+
+
+}
+
+.message {
+
+}

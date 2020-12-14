@@ -1,5 +1,35 @@
 nav{
     grid-area:nav ;
     background-color: cadetblue;
-  
+    /*height: 100%;*/
+    margin-top: 0px;
+    height: 100%;
   }
+.roleMenu{
+    margin-top: 0px;
+    padding-top: 30px;
+}
+  .roleMenu a{
+    color: White;
+    text-decoration: none;
+      font-size: 18px;
+
+  }
+  .roleMenu a.active {
+      color:gold;
+  }
+  ul{
+    list-style-type: none;
+
+  }
+li{
+    width: 80px;
+    border: solid 0.5px white;
+    padding:10px 15px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+li:hover {
+
+    background-color:#5AC7F2 ;
+}

@@ -1,25 +1,28 @@
 import React from 'react';
-import style  from './Nav.module.css';
+import {NavLink} from 'react-router-dom';
+import style from './Nav.module.css';
 
 
- const Nav = () =>{
+const Nav = () => {
 
-  return (
+    return (
 
 
-<div className={style.overlay}>
-    <nav className={style.overlayMenu}>
-      <ul className={style.roleMenu}>
-        <li><a href='#' className={style.menuitem}>Profile</a></li>
-        <li><a href='#' className={style.menuitem}>Message</a></li>
-        <li><a href='#' className={style.menuitem}>Musick</a></li>
-        <li><a href='#' className={style.menuitem}>Feeds</a></li>
-        <li><a href='#' className={style.menuitem}>Setings</a></li>
+        <div className={style.overlay}>
+            <nav className={style.overlayMenu}>
+                <ul className={style.roleMenu}>
+                    <li><NavLink to='/Profile' activeClassName={style.active} >Profile</NavLink></li>
+                    <li><NavLink to='/Messages' activeClassName = {style.active}>Messages </NavLink></li>
+                    <li><NavLink to='/Music' activeClassName={style.active}>Music</NavLink></li>
+                    <li><NavLink to='/Feeds' activeClassName={style.active}>Feeds</NavLink></li>
+                    <li><NavLink to='/Settings' activeClassName={style.active}>Settings</NavLink></li>
 
-      </ul>
-    </nav>
-</div>
 
-    
-  )};
-export default Nav;
+                </ul>
+            </nav>
+        </div>
+
+
+    )
+};
+export default Nav

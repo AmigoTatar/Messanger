@@ -20,11 +20,11 @@ function App() {
                 <Nav/>
 
                 <div className='app_wrapper_content'>
-                    <Route path='/profile' component={Profile}/>
-                    <Route path='/Feeds' component={Feeds}/>
-                    <Route path='/Music' component={Music}/>
-                    <Route path='/Settings' component={Settings}/>
-                    <Route path='/Messages' component={Messages}/>
+                    <Route path='/profile' render={ () => <Profile/>}/>
+                    <Route path='/Feeds' render={ () => <Feeds/>}/>
+                    <Route path='/Music' render={() => <Music/>}/>
+                    <Route path='/Settings' render={() => <Settings/>}/>
+                    <Route path='/Messages' render ={() => <Messages/>}/>
 
                 </div>
             </div>

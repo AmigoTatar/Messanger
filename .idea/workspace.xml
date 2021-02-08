@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="150d9655-94ee-43a3-9564-52ec8cf98bf6" name="Default Changelist" comment="reac app" />
+    <list default="true" id="150d9655-94ee-43a3-9564-52ec8cf98bf6" name="Default Changelist" comment="reac app">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/MessagesItem/MessagesItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/MessagesItem/MessagesItem.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +13,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1lNiJEl3B7TPHxmizxODSijx7S4" />
   <component name="ProjectViewState">
@@ -19,6 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../26F" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +49,8 @@
       <workItem from="1607529799916" duration="5739000" />
       <workItem from="1607615917130" duration="1516000" />
       <workItem from="1607966546603" duration="918000" />
+      <workItem from="1608657996083" duration="137000" />
+      <workItem from="1609058713164" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="reac app">
       <created>1607966822078</created>
@@ -69,6 +79,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reac app" />
-    <option name="LAST_COMMIT_MESSAGE" value="reac app" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

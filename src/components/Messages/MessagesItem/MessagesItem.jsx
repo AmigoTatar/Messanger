@@ -6,8 +6,8 @@ import {NavLink} from "react-router-dom";
 const MessagesItem = (props) => {
     let path = "/message/" + props.id;
     return (
-        <div className={style.userDialogs + ' ' + style.active}><NavLink
-            to={path}> {props.name}</NavLink>
+        <div className={style.userDialogs + ' ' + style.active}>
+            <NavLink to={path}> {props.name}</NavLink>
             </div>
     )
 };

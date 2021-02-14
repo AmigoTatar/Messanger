@@ -10,7 +10,7 @@ import Messages from "./components/Messages/Messages";
 import Footer from "./components/Footer/Footer";
 
 
-function App() {
+const App = (props) => {
     return (
 
         <BrowserRouter>

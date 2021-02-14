@@ -12,12 +12,15 @@ const MyPosts = () => {
 
   let postElement = postData 
   .map ( postData => <Post message={postData.post} likesCount={postData.likesCount} /> )
-
+   let newPostElement = React.createRef();
+   let addPost = () => {
+   let text  = newPostElement.current.value;
+   alert(text)};
   return (
 
     <div className={style.post}>
-      <textarea placeholder='Enter the comment'></textarea>
-      <button>Send</button>
+      <textarea ref={newPostElement} placeholder='Enter the comment'></textarea>
+      <button onClick={addPost} >Send</button>
       <button>Remove</button>
 
       {postElement}
